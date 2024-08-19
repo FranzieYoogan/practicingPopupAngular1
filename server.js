@@ -12,7 +12,7 @@ app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON bodies
 
 // MongoDB connection setup
-const mongoURI = 'mongodb+srv://franzieyoogan2:admin357159@cluster0.guw8a4s.mongodb.net/'; // Replace with your MongoDB URI
+const mongoURI = 'yourKluster'; // Replace with your MongoDB URI
 const dbName = 'feedback1'; // Replace with your database name
 let db;
 
